@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>zunda-chinnews</title>
+<style>
+  :root { --fg: #1f2328; --muted: #57606a; --bg: #ffffff; --line: #d0d7de; --link: #0969da; }
+  @media (prefers-color-scheme: dark) {
+    :root { --fg: #e6edf3; --muted: #9198a1; --bg: #0d1117; --line: #30363d; --link: #4493f8; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.8 system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 48px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; border-bottom: 1px solid var(--line); padding-bottom: 4px; }
+  p, li { margin: 6px 0; }
+  .sub { color: var(--muted); margin: 0 0 24px; }
+  a { color: var(--link); }
+  footer { margin-top: 40px; color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>zunda-chinnews</h1>
+  <p class="sub">YouTube チャンネル「ずんだもんの世界珍ニュース」の投稿管理ツール</p>
+
+  <h2>このアプリについて</h2>
+  <p>zunda-chinnews は、YouTube チャンネル
+    <a href="https://www.youtube.com/channel/UC7MzqHviuGYMs_fseDhCqGA">ずんだもんの世界珍ニュース</a>
+    の運営者が、自分のチャンネルの動画を管理するためだけに使うツールです。一般には提供していません。</p>
+  <p>YouTube Data API と YouTube Analytics API を通じて、次のことを行います。</p>
+  <ul>
+    <li>運営者のチャンネルへの動画（ショート・中尺）のアップロードと公開日時の予約</li>
+    <li>動画のタイトル・説明・サムネイル・字幕・再生リストの設定と更新</li>
+    <li>運営者のチャンネルの再生数・視聴維持率などの分析データの閲覧</li>
+  </ul>
+  <p>運営者以外の Google アカウントのデータを取得・利用することはありません。</p>
+
+  <h2>プライバシーポリシー</h2>
+  <p>取り扱う情報と利用目的は <a href="privacy.html">プライバシーポリシー</a> に記載しています。</p>
+
+  <h2>About (English)</h2>
+  <p>zunda-chinnews is a private tool used only by the operator of the YouTube channel
+    "ずんだもんの世界珍ニュース" to upload and schedule videos to that channel, manage their titles, descriptions,
+    thumbnails, captions and playlists, and read the channel's analytics via the YouTube Data API and YouTube Analytics API.
+    It is not offered to the public. See the <a href="privacy.html">Privacy Policy</a>.</p>
+
+  <footer>連絡先 / Contact: <a href="https://www.youtube.com/@zunda-chinnews">YouTube チャンネル「ずんだもんの世界珍ニュース」</a></footer>
+</main>
+</body>
+</html>
